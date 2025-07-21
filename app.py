@@ -155,6 +155,6 @@ if df_educacional is not None:
 st.divider()
 footer_cols = st.columns([1, 4])
 with footer_cols[0]:
-    st.image(os.path.join("Imagens", "logo.png"), width=720)
+    st.image(os.path.join("imagens", "logo.png"), width=720)
 with footer_cols[1]:
     st.markdown("<p style='text-align: right; color: grey; font-size: 14px;'>Desenvolvido por:<br><b>NIS - Núcleo de Inteligência e Sustentabilidade | IFSP</b></p>", unsafe_allow_html=True)
